@@ -1,0 +1,15 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "CH22-RecyclerView"
+include ':2201-RecyclerView'
+include ':2202-RecyclerView'
+include ':2205-swiperefreshlayout'
+include ':2206-OpenData-hotel'
+include ':2207-OpenData-scenicspot'
+include ':2208-OpenData-food'

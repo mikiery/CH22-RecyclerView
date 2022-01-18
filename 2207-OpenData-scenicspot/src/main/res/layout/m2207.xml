@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/li00"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Gray"
+    android:orientation="vertical"
+    android:padding="@dimen/Spacing">
+
+    <LinearLayout
+        android:id="@+id/li01"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/Silver"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/m2207_name"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:text="@string/m2207_name"
+                android:textColor="@color/Navy"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/m2207_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/m2207_map" />
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/m2207_descr"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/Yellow"
+            android:fadeScrollbars="false"
+            android:maxLines="6"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:text="@string/m2207_descr"
+            android:textColor="@color/Navy"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/m2207_lat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/m2207_lat"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/m2207_lng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/m2207_lng"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/m2207_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/m2207_address"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/u_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Margins"
+        android:background="@color/White"
+        android:gravity="center"
+        android:text="@string/loading"
+        android:textColor="#DD2C00"
+        android:textSize="18sp" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/laySwipe"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/Margins"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/ncount"
+            android:textColor="@color/Navy"
+            android:textSize="14sp"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/myname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/myname"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="14sp"
+            tools:ignore="TextContrastCheck" />
+    </TableRow>
+
+</LinearLayout>

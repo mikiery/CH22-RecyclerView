@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android-work/CH22RecyclerView/2201-RecyclerView/src/main/res/drawable/ic_launcher_1_foreground.xml" value="0.3072916666666667" />
+        <entry key="..\:/android-work/CH22RecyclerView/2201-RecyclerView/src/main/res/layout/item.xml" value="0.28229166666666666" />
+        <entry key="..\:/android-work/CH22RecyclerView/2201-RecyclerView/src/main/res/layout/m2200.xml" value="0.28229166666666666" />
+        <entry key="..\:/android-work/CH22RecyclerView/2201-RecyclerView/src/main/res/menu/main.xml" value="0.28229166666666666" />
+        <entry key="..\:/android-work/CH22RecyclerView/2201-RecyclerView/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3072916666666667" />
+        <entry key="..\:/android-work/CH22RecyclerView/2201-RecyclerView/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3072916666666667" />
+        <entry key="..\:/android-work/CH22RecyclerView/2202-RecyclerView/src/main/res/layout/m2201.xml" value="0.28229166666666666" />
+        <entry key="..\:/android-work/CH22RecyclerView/2205-swiperefreshlayout/src/main/res/layout/list.xml" value="0.26296296296296295" />
+        <entry key="..\:/android-work/CH22RecyclerView/2205-swiperefreshlayout/src/main/res/layout/m2205.xml" value="0.2609375" />
+        <entry key="..\:/android-work/CH22RecyclerView/2205-swiperefreshlayout/src/main/res/menu/main.xml" value="0.28229166666666666" />
+        <entry key="..\:/android-work/CH22RecyclerView/2206-OpenData-hotel/src/main/res/layout/cellpost.xml" value="0.28229166666666666" />
+        <entry key="..\:/android-work/CH22RecyclerView/2206-OpenData-hotel/src/main/res/layout/m2206.xml" value="0.33" />
+        <entry key="..\:/android-work/CH22RecyclerView/2206-OpenData-hotel/src/main/res/menu/main.xml" value="0.33" />
+        <entry key="..\:/android-work/CH22RecyclerView/2207-OpenData-scenicspot/src/main/res/layout/cellpost.xml" value="0.28229166666666666" />
+        <entry key="..\:/android-work/CH22RecyclerView/2207-OpenData-scenicspot/src/main/res/layout/m2206.xml" value="0.28229166666666666" />
+        <entry key="..\:/android-work/CH22RecyclerView/2207-OpenData-scenicspot/src/main/res/layout/m2207.xml" value="0.33" />
+        <entry key="..\:/android-work/CH22RecyclerView/2207-OpenData-scenicspot/src/main/res/xml/network_security_config.xml" value="0.28229166666666666" />
+        <entry key="..\:/android-work/CH22RecyclerView/2208-OpenData-food/src/main/res/layout/cellpost.xml" value="0.28229166666666666" />
+        <entry key="..\:/android-work/CH22RecyclerView/2208-OpenData-food/src/main/res/layout/m2207.xml" value="0.28229166666666666" />
+        <entry key="..\:/android-work/CH22RecyclerView/2208-OpenData-food/src/main/res/layout/m2208.xml" value="0.28229166666666666" />
+        <entry key="..\:/android-work/CH22RecyclerView/2208-OpenData-food/src/main/res/menu/main.xml" value="0.28229166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/2201-RecyclerView" />
+            <option value="$PROJECT_DIR$/2202-RecyclerView" />
+            <option value="$PROJECT_DIR$/2205-swiperefreshlayout" />
+            <option value="$PROJECT_DIR$/2206-OpenData-hotel" />
+            <option value="$PROJECT_DIR$/2207-OpenData-scenicspot" />
+            <option value="$PROJECT_DIR$/2208-OpenData-food" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
